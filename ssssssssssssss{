@@ -1,0 +1,21 @@
+[33mcommit 0120041439f1656758a1a6af2196b863f3c955e6[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m
+Author: Jhessica Pinedo <jhessicapinedo@gmail.com>
+Date:   Mon Mar 24 16:07:47 2025 -0500
+
+    change saludation message
+
+[1mdiff --git a/src/main/java/edu/tecsup/lab2/App.java b/src/main/java/edu/tecsup/lab2/App.java[m
+[1mindex 1bbb31f..941e7ee 100644[m
+[1m--- a/src/main/java/edu/tecsup/lab2/App.java[m
+[1m+++ b/src/main/java/edu/tecsup/lab2/App.java[m
+[36m@@ -5,6 +5,6 @@[m [mpackage edu.tecsup.lab2;[m
+  */[m
+ public class App {[m
+     public static void main(String[] args) {[m
+[31m-        System.out.println("Hello World!");[m
+[32m+[m[32m        System.out.println("Salut les gars!");[m
+     }[m
+ }[m
+[1mdiff --git a/target/classes/edu/tecsup/lab2/App.class b/target/classes/edu/tecsup/lab2/App.class[m
+[1mindex 8806a18..5d7d893 100644[m
+Binary files a/target/classes/edu/tecsup/lab2/App.class and b/target/classes/edu/tecsup/lab2/App.class differ
